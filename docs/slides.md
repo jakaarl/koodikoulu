@@ -37,8 +37,12 @@ Tervetuloa koodikouluun!
 
 ## Materiaali
 
-Tämä presentaatio löytyy osoitteesta: (./index.html)
-Opiskelumateriaali löytyy täältä: (./materiaalit/index.html)
+Tämä presentaatio löytyy osoitteesta:
+https://jakaarl.github.io/koodikoulu/index.html
+
+Opiskelumateriaali löytyy täältä:
+https://jakaarl.github.io/koodikoulu/materiaalit/index.html
+
 ---
 
 ## Ohjelmat ja ohjelmointi
