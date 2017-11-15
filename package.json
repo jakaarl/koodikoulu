@@ -1,0 +1,27 @@
+{
+  "name": "koodikoulu",
+  "version": "1.0.0",
+  "description": "Koodikoulun presis ja materiaalit",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "http-server -c-1 docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakaarl/koodikoulu.git"
+  },
+  "keywords": [
+    "koodikoulu"
+  ],
+  "author": "Jani Kaarela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakaarl/koodikoulu/issues"
+  },
+  "homepage": "https://github.com/jakaarl/koodikoulu#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
