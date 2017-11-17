@@ -6,13 +6,47 @@
   </head>
   <body>
     <xmp style="display: none">
-## Muuttujat
+## Muuttujat (ja kommentit)
 
+[Muuttuja](https://fi.wikipedia.org/wiki/Muuttuja_%28ohjelmointi%29) (_variable_) varastoi tietoa, johon voidaan viitata sen nimellä. Usein käytetty vertaus on laatikko: muuttuja on nimetty laatikko, jonka sisältämään arvoon voidaan viitata ohjelmakoodissa sen nimellä.
 
+```
+var muuttuja = "arvo";
+```
+
+Sana `var` on avainsana (_keyword_), jolla Javascriptissä määritellään muuttuja. Yllä "muuttuja" on muuttujan nimi, ja sana "arvo" sen arvo. Yhtäsuuruusmerkillä asetetaan (_assignment_) muuttujalle arvo, se ei vertaile yhtäsuuruutta! Muuttujan arvoa voidaan muuttaa - alkuperäisen määrittelyn jälkeen ei tarvita enää avainsanaa `var`:
+
+```
+muuttuja = "toinen arvo"; // kokeile myös lisätä eteen var!
+```
+
+Yllä muuttujan asettamisen jälkeen on kommentti (_comment_). Kommentit eivät vaikuta ohjelman suoritukseen, vaan niitä käytetään ainoastaan selittämään ohjelmaa itselle tai muille. Kommentti alkaa tuplakauttaviivasta `//` ja jatkuu rivin loppuun. Pidemmät kommentit alkavat `/*` ja loppuvat `*/`:
+
+```
+/*
+ * Tämä on useamman rivin kommentti. Yksinäinen "*" on mukana vain kaunistamassa riviä!
+ */
+```
 
 ## Vakiot
 
+Vakio (_constant_) muistuttaa muuten muuttujaa, mutta sen arvoa ei voi asettaa uudelleen. Arvo voi tyypistä riippuen olla muuttumaton (_immutable_) tai muuttuva (esim. taulukko tai objekti) - muuttuvan vakioarvon _sisältöä_ voidaan muokata, mutta vakiota ei voida asettaa osoittamaan eri arvoon!
 
+```
+const vakio = "muuttumaton arvo";
+vakio = "toinen arvo"; // virhe!
+```
+
+## Tyypit
+
+Javascriptissä muuttuja ei ole _tyypitetty_ - sen arvoksi voidaan asettaa vaikkapa ensiksi tekstiä ja myöhemmin numero. Joissakin _vahvasti tyypitetyissä_ kielissä muuttujalle annetaan aina tyyppi, eikä sille voi asettaa eri tyyppisiä arvoja.
+
+Javascriptissä erilaisia tyyppejä on mm.:
+
+* merkkijono (_String_), `var teksti = "Tämä on merkkijono."`
+* numero (_Number_), `var numero = 2` (huomaa, ei "lainausmerkkejä!")
+* totuusarvo (_Boolean_), `var tosi = true; var epätosi = false;`
+* objekti (_Object_), `var objekti = { koko: 100, iso: true };`
 
 ---
 
