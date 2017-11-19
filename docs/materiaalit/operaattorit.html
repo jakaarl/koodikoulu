@@ -21,9 +21,22 @@ Sijoitusoperaattori on Javascriptissä yhtäsuuruusmerkki, `=`. Se siis ei verta
 var samansuuruinen = (foo == bar);
 ```
 
-Yllä muuttuja "samansuuruinen" on `true`, mikäli muuttujat "foo" ja "bar" ovat samansuuruisia, ja `false` jos ne ovat erisuuruisia.
+Yllä muuttuja "samansuuruinen" on `true`, mikäli muuttujat "foo" ja "bar" ovat samansuuruisia, ja `false` jos ne ovat erisuuruisia. Vertailuoperaattorin merkitys riippuu vertailtavien muuttujien tyypistä: numeroilla luonnollisesti vertaillaan numeroarvoja, tekstillä taas tekstin sisältöä.
 
----
+Yhteenlasku- `+` ja vähennyslaskuoperaattorit `-` toimivat numeroille, aivan kuten olettaisikin. Tekstin yhteenlasku liittää tekstit yhteen:
+
+```
+var yksi = 1;
+var kaksi = 2;
+var kolme = yksi + kaksi; // 3
+var teksti = "Hei ";
+var toinenTeksti = "maailma!";
+var heiMaailma = teksti + toinenTeksti; // Hei maailma!
+```
+
+Vähennyslasku, kertolasku `*` ja jakolasku `/` toimivat vain numeroille, samoin kuin vertailuoperaatiot `<`, `>`, `<=` ja `>=`. Voit lukea lisää operaattoreista esimerkiksi [webbipakista](https://weppipakki.com/js/opas/alkeet1.htm#ops).
+
+Vertailuoperaatiot tulevat tarpeeseen, kun käytämme [ehtolauseita](ehtolauseet.html).
 
 [<< sisällysluettelo](index.html)
     </xmp>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Koodikoulu: materiaalit</title>
+   <meta charset="UTF-8">
+  </head>
+  <body>
+    <xmp style="display: none">
+## Ehtolauseet
+
+Ehtolauseessa arvioidaan (_evaluate_) lausekkeen totuusarvo, ja sen ollessa tosi, suoritetaan seuraava lause (_statement_) tai lohko (_block_). Tavallisin ehtolause on `if`:
+
+```
+if (muuttuja > 0) {
+  console.log("muuttuja on positiivinen.");
+}
+```
+
+Mikäli "muuttuja" on arvoltaan suurempi, kuin 0, lokitetaan konsoliin. Aaltosulkeet `{` ja `}` aloittavat ja lopettavat lohkon. Kun ehtolauseen jälkeen halutaan suorittaa enemmän, kuin yksi lause, aaltosulkeet ovat pakollisia - muuten ehdollisuus koskisi vain ensimmäistä lausetta. Virheiden välttämiseksi onkin parempi käyttää aina aaltosulkeita! 
+
+If-lausetta käyttäessä tarvitsee usein hanskata myös vaihtoehto, että lause on epätosi. Tähän soveltuu `else`:
+
+```
+if (muuttuja > 0) {
+  console.log("muuttuja on positiivinen.");
+} else {
+  console.log("muuttuja on negatiivinen.");
+}
+```
+Yllä suoritetaan `else`, mikäli "muuttuja" ei ole nollaa suurempi. Huomaako joku koodissa pienoisen virheen, eli "bugin"?!
+
+Lisätietoa ehtolauseista löytyy [webbipakista](https://weppipakki.com/js/opas/alkeet2.htm). Ehtolauseet liittyvät läheisesti [toistolauseisiin](toistolauseet.html), sillä niissä toistoa ohjataan ehdoilla.
+
+[<< sisällysluettelo](index.html)
+    </xmp>
+    <script src="https://cdn.rawgit.com/arturadib/strapdown/gh-pages/v/0.2/strapdown.js"></script>
+  </body>
+</html>
