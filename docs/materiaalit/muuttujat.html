@@ -28,15 +28,6 @@ Yllä muuttujan asettamisen jälkeen on kommentti (_comment_). Kommentit eivät 
  */
 ```
 
-## Vakiot
-
-Vakio (_constant_) muistuttaa muuten muuttujaa, mutta sen arvoa ei voi asettaa uudelleen. Arvo voi tyypistä riippuen olla muuttumaton (_immutable_) tai muuttuva (esim. taulukko tai objekti) - muuttuvan vakioarvon _sisältöä_ voidaan muokata, mutta vakiota ei voida asettaa osoittamaan eri arvoon!
-
-```
-const vakio = "muuttumaton arvo";
-vakio = "toinen arvo"; // virhe!
-```
-
 ## Tyypit
 
 Javascriptissä muuttuja ei ole _tyypitetty_ - sen arvoksi voidaan asettaa vaikkapa ensiksi tekstiä ja myöhemmin numero. Joissakin _vahvasti tyypitetyissä_ kielissä muuttujalle annetaan aina tyyppi, eikä sille voi asettaa eri tyyppisiä arvoja.
@@ -48,6 +39,8 @@ Javascriptissä erilaisia tyyppejä on mm.:
 * totuusarvo (_Boolean_), `var tosi = true; var epätosi = false;`
 * objekti (_Object_), `var objekti = { koko: 100, iso: true };`
 
+Objekti voi sisältää nimettyjä "kenttiä" (_properties_), joiden tyyppi voi olla mitä tahansa - myös toinen objekti. Funktio (_function_) on erityinen objekti, jota voidaan kutsua, mutta siitä lisää myöhemmin - ensin perehdymme [operaattoreihin](operaattorit.html), joilla muuttujia voidaan käsitellä eri tavoilla.
+ 
 ---
 
 [<< sisällysluettelo](index.html)
