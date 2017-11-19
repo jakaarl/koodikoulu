@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Koodikoulu: materiaalit</title>
+   <meta charset="UTF-8">
+  </head>
+  <body>
+    <xmp style="display: none">
+## Toistolauseet
+
+Toistolause toistaa lausetta tai lohkoa niin kauan, kuin sen ehto on tosi. Ehdon ollessa epätosi, suoritus jatkuu normaalisti. Yksinkertaisin toistolause on `while`:
+
+```
+var i = 1;
+while (i <= 5) {
+  i = i + 1;
+}
+console.log(i);
+```
+
+Muuttuja "i" saa alkuarvokseen 1, ja niin kauan, kuin se on pienempi tai yhtäsuuri, kuin 5, siihen lisätään 1. Mikä numero konsoliin tulostuu?
+
+Sama lyhyemmin, käyttäen `for`-toistoa:
+
+```
+for (var i = 1; i <= 5; i++) {
+  // yllä on alustus-, ehto- ja loppuosa
+}
+console.log(i);
+```
+
+Itse toistossa ei tehdä mitään - kaikki edellisen `while`-toiston tekemät asiat tapahtuvat sulkujen sisällä! Alustusosa suoritetaan, ennen kuin toisto alkaa, ehto-osa tarkistaa ehdon ennen toistokerran suorittamista ja loppuosa suoritetaan toistokertojen jälkeen. Kokeile myös lisätä `while`- ja `for`-toistojen sisälle `console.log(i)`, niin näet mitä toistoissa tapahtuu!
+
+Aikaisemmin mainittiin ohjelman suorituksen voivan toistumisen lisäksi hyppiä paikasta toiseen. Niin tapahtuu esimerkiksi kutsuessa [funktiota](funktiot.html).
+
+[<< sisällysluettelo](index.html)
+    </xmp>
+    <script src="https://cdn.rawgit.com/arturadib/strapdown/gh-pages/v/0.2/strapdown.js"></script>
+  </body>
+</html>
