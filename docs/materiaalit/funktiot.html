@@ -8,6 +8,29 @@
     <xmp style="display: none">
 ## Funktiot
 
+Funktio (_function_) on koodilohko, jonka sisältö suoritetaan sitä kutsuessa. Kun funktio on suoritettu, ohjelman suoritus jatkuu funktiokutsun jälkeisestä kohdasta. Esimerkiksi:
+
+```
+function kutsu() {
+  console.log("2");
+}
+
+console.log("1");
+kutsu();
+console.log("3");
+```
+
+... tulostaa konsoliin numerot 1, 2 ja 3 järjestyksessä. Funktion määrittely ei kutsu sitä - muutenhan numero 2 olisi tulostunut ensin! Funktion määrittely alkaa avainsanasta `function`, jota seuraa funktion nimi, sulkeet, sekä kaarisulkujen sisällä annettava funktion runko. Sulkeiden sisällä voidaan määritellä funktion parametreja (_parameters_):
+
+```
+function tulosta(tulostettava) {
+  console.log(tulostettava);
+}
+```
+
+Sulkeiden sisällä siis annetaan parametrin nimi, jolla parametriin viitataan funktion rungossa. Edellä annettua funktiota voidaan siis kutsua esimerkiksi `tulosta(jokuMuuttuja)`, jolloin parametrina välitetään muuttujan "jokuMuuttuja" arvo, johon viitataan funktion sisällä nimellä "tulostettava". Joku saattaakin tässä vaiheessa arvata, mikä koodiesimerkeissä keikkuva `console.log()` on...
+
+Tietenkin funktio! Sitä edeltävä `console` on [objekti](objektit.html), jonka jäsen (_member_) funktio `log()` on.
 
 [<< sisällysluettelo](index.html)
     </xmp>

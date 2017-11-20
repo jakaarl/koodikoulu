@@ -18,6 +18,12 @@ if (muuttuja > 0) {
 
 Mikäli "muuttuja" on arvoltaan suurempi, kuin 0, lokitetaan konsoliin. Aaltosulkeet `{` ja `}` aloittavat ja lopettavat lohkon. Kun ehtolauseen jälkeen halutaan suorittaa enemmän, kuin yksi lause, aaltosulkeet ovat pakollisia - muuten ehdollisuus koskisi vain ensimmäistä lausetta. Virheiden välttämiseksi onkin parempi käyttää aina aaltosulkeita! 
 
+```
+if (muuttuja > 0)
+  console.log("muuttuja on..."); // suoritetaan, jos muuttuja on suurempi kuin nolla...
+  console.log("positiivinen!"); // hups, tämä suoritetaankin aina!
+```
+
 If-lausetta käyttäessä tarvitsee usein hanskata myös vaihtoehto, että lause on epätosi. Tähän soveltuu `else`:
 
 ```

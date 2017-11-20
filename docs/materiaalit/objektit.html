@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Koodikoulu: materiaalit</title>
+   <meta charset="UTF-8">
+  </head>
+  <body>
+    <xmp style="display: none">
+## Objektit
+
+Objekteihin voidaan koota useita erilaisia muuttujia, ja myös funktioita. Objektin jäseniin viitataan antamalla objektin muuttujanimi, piste `.`, ja jäsenen nimi:
+
+```
+var hauva = {
+  "nimi": "Ihmekoiru",
+  "ikä": 3,
+  "hauku": function() {
+    console.log("Hau!");
+  }
+}
+
+console.log("Hauva nimeltä " + hauva.nimi + " haukkuu.");
+hauva.hauku();
+```
+
+Objekti voidaan siis luoda antamalla aaltosulkujen sisällä jäsenten nimet ja arvot muodossa `nimi: arvo`, erottaen nimi edeltävästä arvosta pilkulla. Objekti voidaan välittää parametrina siinä, missä mikä tahansa muukin muuttuja.
+
+### Mitä seuraavaksi?
+
+Javascriptistä on raapaistu vasta pintaa. Monessa asiassa ollaan oikaistu mutkia suoriksi ja jätetty yksityiskohtia pois. Lisätietoa Javascriptistä ja ohjelmoinnista löytyy internetistä hurjat määrät; jonkin verran lisälukemista on koottu [erilliselle sivulle](lisaa.html).
+
+
+[<< sisällysluettelo](index.html)
+    </xmp>
+    <script src="https://cdn.rawgit.com/arturadib/strapdown/gh-pages/v/0.2/strapdown.js"></script>
+  </body>
+</html>
