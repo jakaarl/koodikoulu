@@ -20,17 +20,20 @@ kutsu();
 console.log("3");
 ```
 
-... tulostaa konsoliin numerot 1, 2 ja 3 järjestyksessä. Funktion määrittely ei kutsu sitä - muutenhan numero 2 olisi tulostunut ensin! Funktion määrittely alkaa avainsanasta `function`, jota seuraa funktion nimi, sulkeet, sekä kaarisulkujen sisällä annettava funktion runko. Sulkeiden sisällä voidaan määritellä funktion parametreja (_parameters_):
+... tulostaa konsoliin numerot 1, 2 ja 3 järjestyksessä. Funktion määrittely ei kutsu sitä - muutenhan numero 2 olisi tulostunut ensin! Funktion määrittely alkaa avainsanasta `function`, jota seuraa funktion nimi, sulkeet, sekä kaarisulkujen sisällä annettava funktion runko. Sulkeiden sisällä voidaan määritellä funktion parametreja (_parameters_) ja avainsanalla `return` voidaan antaa paluuarvo (_return value_):
 
 ```
-function tulosta(tulostettava) {
-  console.log(tulostettava);
+function yhteenlasku(eka, toka) {
+  var tulos = eka + toka;
+  return tulos;
 }
+
+console.log(yhteenlasku(1, 2));
 ```
 
-Sulkeiden sisällä siis annetaan parametrin nimi, jolla parametriin viitataan funktion rungossa. Edellä annettua funktiota voidaan siis kutsua esimerkiksi `tulosta(jokuMuuttuja)`, jolloin parametrina välitetään muuttujan "jokuMuuttuja" arvo, johon viitataan funktion sisällä nimellä "tulostettava". Joku saattaakin tässä vaiheessa arvata, mikä koodiesimerkeissä keikkuva `console.log()` on...
+Sulkeiden sisällä siis annetaan parametrin nimi, jolla parametriin viitataan funktion rungossa. Esimerkissä "eka" saa arvon 1 ja "toka" 2. Funktiokutsu `yhteenlasku()` palauttaa tuloksen. Joku saattaakin tässä vaiheessa arvata, mikä koodiesimerkeissä keikkuva `console.log()` on...
 
-Tietenkin funktio! Sitä edeltävä `console` on [objekti](objektit.html), jonka jäsen (_member_) funktio `log()` on.
+Tietenkin funktio! Sitä edeltävä `console` on [objekti](objektit.html), jonka jäsen (_member_) funktio `log()` on. Tässä se tulostaa yhteenlaskun tuloksen.
 
 [<< sisällysluettelo](index.html)
     </xmp>
