@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harjoitus: muuttujat</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script>
+function suorita() {
+  eval(document.getElementById("code").value);
+  var square = document.getElementById("square");
+  if (leveys) {
+    square.style.width = leveys + "px";
+  }
+  if (korkeus) {
+    square.style.height = korkeus + "px";
+  }
+}
+    </script>
+  </head>
+  <body>
+    <p>Kirjoita alla olevaan laatikkoon koodi, joka määrittele kaksi muuttujaa:</p>
+    <ul>
+      <li>leveys</li>
+      <li>korkeus</li>
+    </ul>
+    <p>Anna kummallekin arvoksi vaikkapa numero 50. Voit sen jälkeen kokeilla eri numeroita, tai antaa toiselle muuttujalle arvoksi ensimmäisen muuttujan nimen.
+    </p>
+    <textarea id="code" cols="80" rows="10">
+    </textarea>
+    <button onclick="suorita()">Suorita!</button>
+    <div id="square"></div>
+  </body>
+</html>
