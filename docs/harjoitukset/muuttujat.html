@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <script>
-function suorita() {
+function execute() {
   eval(document.getElementById("code").value);
   var square = document.getElementById("square");
   if (leveys) {
@@ -18,16 +18,26 @@ function suorita() {
     </script>
   </head>
   <body>
-    <p>Kirjoita alla olevaan laatikkoon koodi, joka määrittele kaksi muuttujaa:</p>
+    <h1>Muuttujat ja operaattorit</h1>
+    <p>
+Alla olevaan laatikkoon kirjoitettu koodi suoritetaan, kun klikkaat nappia
+&quot;Suorita!&quot;. Nimeäthän muuttujat tarkalleen ohjeen mukaan.
+    </p>
+    <textarea id="code" cols="80" rows="10"></textarea>
+    <button onclick="execute()">Suorita!</button>
+    <div id="square"></div>
+    <h2>Muuttujat</h2>
+    <p>Kirjoita laatikkoon koodi, joka määrittele kaksi muuttujaa:</p>
     <ul>
       <li>leveys</li>
       <li>korkeus</li>
     </ul>
-    <p>Anna kummallekin arvoksi vaikkapa numero 50. Voit sen jälkeen kokeilla eri numeroita, tai antaa toiselle muuttujalle arvoksi ensimmäisen muuttujan nimen.
+    <p>
+Anna kummallekin arvoksi vaikkapa numero 50. Voit sen jälkeen kokeilla eri numeroita, tai antaa toiselle muuttujalle arvoksi ensimmäisen muuttujan nimen, jolloin se muuttuu automaattisesti, kun muutat ensimmäistä muuttujaa.
     </p>
-    <textarea id="code" cols="80" rows="10">
-    </textarea>
-    <button onclick="suorita()">Suorita!</button>
-    <div id="square"></div>
+    <h2>Operaattorit</h2>
+    <p>
+Muuta koodiasi niin, että korkeus määritellään niin, että se on kaksi kertaa leveys. Varmista, että muuttaessasi leveyttä sinun ei tarvitse koskeakaan korkeuteen, jotta se olisi tuplasi uuden leveyden verran! Kun saat sen toimimaan, voit kokeilla vaikka yhteen-, vähennys- tai jakolaskua.
+    </p>
   </body>
 </html>
