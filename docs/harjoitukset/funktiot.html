@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harjoitus: muuttujat</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script>
+function execute() {
+  eval(document.getElementById("code").value);
+  var square = document.getElementById("output");
+  var param1 = document.getElementById("param1").value;
+  var param2 = document.getElementById("param2").value;
+  square.innerText = tulosta.length === 0 ? tulosta() : (tulosta.length === 1 ? tulosta(param1) : tulosta(param1, param2));
+}
+    </script>
+  </head>
+  <body>
+    <h1>Funktiot ja toistolauseet</h1>
+    <p>
+Alla olevaan laatikkoon kirjoitettu koodi suoritetaan, kun klikkaat nappia
+&quot;Suorita!&quot;. Nimeäthän muuttujat tarkalleen ohjeen mukaan.
+    </p>
+    <textarea id="code" cols="80" rows="10"></textarea>
+    <label for="param1">Parametri 1:</label><input type="text" id="param1" size="20" maxlength="20"/>
+    <label for="param2">Parametri 2:</label><input type="text" id="param2" size="2" maxlength="1"/>
+    <button onclick="execute()">Suorita!</button>
+    <div id="output"></div>
+    <h2>Funktio, parametri ja paluuarvo</h2>
+    <p>
+Kirjoita laatikkoon koodi, joka määrittelee funktion nimeltä &quot;tulosta&quot;. Funktion tulee palauttaa tekstiä, esim. &quot;Hei maailma!&quot;.
+    </p>
+    <h2>Parametrit</h2>
+    <p>
+Muuta koodiasi niin, että se ottaa parametrinä palautettavan tekstin.
+    </p>
+    <h3>Toistolause</h3>
+    <p>
+Lisää funktioon toistolause, joka toistuu esim. 3 kertaa, lisäten joka kerta palautettavaan tekstiin välilyönnin ja parametrinä annetun tekstin.
+Esimerkiksi parametrillä &quot;jihuu&quot; palautuisi &quot;jihuu jihuu jihuu jihuu&quot;.
+    </p>
+    <p>
+Saatuasi toistolauseen toimimaan voit vielä kokeilla muuttaa sitä niin, että se ottaa toisena parametrina halutut toistokerrat.
+    </p>
+  </body>
+</html>
