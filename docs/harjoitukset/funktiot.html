@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Harjoitus: muuttujat</title>
+    <title>Harjoitus: funktiot</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <script>
@@ -20,10 +20,10 @@ function execute() {
 Alla olevaan laatikkoon kirjoitettu koodi suoritetaan, kun klikkaat nappia
 &quot;Suorita!&quot;. Nimeäthän muuttujat tarkalleen ohjeen mukaan.
     </p>
-    <textarea id="code" cols="80" rows="10"></textarea>
-    <label for="param1">Parametri 1:</label><input type="text" id="param1" size="20" maxlength="20"/>
-    <label for="param2">Parametri 2:</label><input type="text" id="param2" size="2" maxlength="1"/>
-    <button onclick="execute()">Suorita!</button>
+    <div><textarea id="code" cols="80" rows="10"></textarea></div>
+    <div><label for="param1">Parametri 1:</label><input type="text" id="param1" size="20" maxlength="20"/></div>
+    <div><label for="param2">Parametri 2:</label><input type="text" id="param2" size="2" maxlength="1"/></div>
+    <div><button onclick="execute()">Suorita!</button></div>
     <div id="output"></div>
     <h2>Funktio, parametri ja paluuarvo</h2>
     <p>
@@ -37,8 +37,6 @@ Muuta koodiasi niin, että se ottaa parametrinä palautettavan tekstin.
     <p>
 Lisää funktioon toistolause, joka toistuu esim. 3 kertaa, lisäten joka kerta palautettavaan tekstiin välilyönnin ja parametrinä annetun tekstin.
 Esimerkiksi parametrillä &quot;jihuu&quot; palautuisi &quot;jihuu jihuu jihuu jihuu&quot;.
-    </p>
-    <p>
 Saatuasi toistolauseen toimimaan voit vielä kokeilla muuttaa sitä niin, että se ottaa toisena parametrina halutut toistokerrat.
     </p>
   </body>

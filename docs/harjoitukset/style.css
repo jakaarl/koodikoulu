@@ -1,3 +1,18 @@
+body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+input {
+  margin: 10px;
+}
+
+div {
+  clear: both;
+}
+
 #square {
   width: 0px;
   height: 0px;

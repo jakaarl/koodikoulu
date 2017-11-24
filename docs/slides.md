@@ -112,4 +112,14 @@ while (i < 5) {
 
 ## Funktiot
 
+Funktio on nimetty koodilohko, joka voi ottaa syötteekseen parametreja ja palauttaa paluuarvon. Funktio suoritetaan vasta, kun sitä kutsutaan.
+
+```
+function plus(eka, toka) {
+  return eka + toka;
+}
+```
+
+Funktio "plus" ottaa parametrit "eka" ja "toka", ja palauttaa niiden summan (mikäli ne ovat numeroita) tai liittää ne yhteen (mikäli ne ovat tekstiä).
+
 
