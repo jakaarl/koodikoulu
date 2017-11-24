@@ -18,7 +18,7 @@ Tervetuloa koodikouluun!
 * Johdanto ohjelmointiin ja Javascriptiin
 * Muuttujat ja operaattorit
 * Ohjelmointiharjoitus
-* Tauko (n. klo 12.30)
+* T A U K O
 * Ehdolliset- ja toistolauseet
 
 ---
@@ -27,7 +27,7 @@ Tervetuloa koodikouluun!
 
 * Funktiot, parametrit ja paluuarvot
 * Ohjelmointiharjoitus
-* Tauko (n. klo 14.15)
+* T A U K O
 * Ohjelmointiharjoitus
 * Diplomien jako
 
@@ -79,6 +79,11 @@ Kuten nimi antaa ymmärtää, muuttuja voi muuttua - sen voi asettaa sisältäm�
 
 Muuttujia käsitellään operaattoreilla. Edellä yhtäsuuruusmerkillä asetettiin muuttujalle arvo. Operaattoreita löytyy mm. yhteen-, vähennys-, kerto- ja jakolaskuun, sekä vertailuun. Suuri osa operaattoreista toimii vain tietyn tyyppisille muuttujille.
 
+```
+var kaksi = 1 + 1; // 2
+var tuplanimi = nimi + nimi; // "Aku AnkkaAku Ankka"
+```
+
 ---
 
 ## Ehtolauseet
@@ -103,7 +108,7 @@ Myös toistolauseessa on ehto, ja sen ollessa tosi, koodi suoritetaan. Erona on,
 
 ```
 var i = 0;
-while (i < 5) {
+while (i < 5) { // toistetaan niin kauan, kuin i on alle 5!
   i = i + 1;
 }
 ```
