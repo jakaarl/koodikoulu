@@ -28,7 +28,6 @@ Tervetuloa koodikouluun!
 * Funktiot, parametrit ja paluuarvot
 * Ohjelmointiharjoitus
 * Tauko (n. klo 14.15)
-* Pupupelin rajapintojen esittely
 * Ohjelmointiharjoitus
 * Diplomien jako
 
@@ -37,10 +36,10 @@ Tervetuloa koodikouluun!
 ## Materiaali
 
 Tämä presentaatio löytyy osoitteesta:
-https://jakaarl.github.io/koodikoulu/index.html
+https://jakaarl.github.io/koodikoulu/
 
 Opiskelumateriaali löytyy täältä:
-https://jakaarl.github.io/koodikoulu/materiaalit/index.html
+https://jakaarl.github.io/koodikoulu/materiaalit/
 
 ---
 
@@ -56,7 +55,7 @@ https://jakaarl.github.io/koodikoulu/materiaalit/index.html
 
 ## Javascript
 
-Ohjelmoimme Javascriptillä. Se sopii monestakin syystä opetuskäyttöön:
+Ohjelmoimme JavaScriptillä. Se ei vaadi kummempia työkaluja, sen syntaksi ("kielioppi") on yksinkertainen, ja se on monikäyttöinen.
 * tavallinen webbiselain sisältää JS-tulkin
   * ei siis vaadi kääntäjää, käännösvaihetta tms.
 * syntaksi on suhteellisen yksinkertainen...
