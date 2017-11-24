@@ -80,3 +80,36 @@ Kuten nimi antaa ymmärtää, muuttuja voi muuttua - sen voi asettaa sisältäm�
 Muuttujia käsitellään operaattoreilla. Edellä yhtäsuuruusmerkillä asetettiin muuttujalle arvo. Operaattoreita löytyy mm. yhteen-, vähennys-, kerto- ja jakolaskuun, sekä vertailuun. Suuri osa operaattoreista toimii vain tietyn tyyppisille muuttujille.
 
 ---
+
+## Ehtolauseet
+
+Ehtolauseen avulla suoritetaan koodia vain, jos jokin ehto on tosi (_true_) - sen ollessa epätosi (_false_), koodia ei suoriteta. Esimerkiksi:
+
+```
+if (nimi == "Aku Ankka") {
+  console.log("Kääk maailma!");
+} else {
+  console.log("Hei maailma!");
+}
+```
+
+Konsoliin lokitetaan "Kääk maailma!" vain siinä tapauksessa, että muuttuja "nimi" on arvoltaan "Aku Ankka". Muuten lokitetaan "Hei maailma!".
+
+---
+
+## Toistolauseet
+
+Myös toistolauseessa on ehto, ja sen ollessa tosi, koodi suoritetaan. Erona on, että koodi suoritetaan toistuvasti, kunnes ehdosta tulee epätosi. Onkin tärkeätä, että ehto muuttuu jossain vaiheessa epätodeksi - muuten koodi juuttuu ikuiseen toistoon (_infinite loop_).
+
+```
+var i = 0;
+while (i < 5) {
+  i = i + 1;
+}
+```
+
+---
+
+## Funktiot
+
+
