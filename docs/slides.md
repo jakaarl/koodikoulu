@@ -55,9 +55,8 @@ https://jakaarl.github.io/koodikoulu/materiaalit/
 
 ## Javascript
 
-Ohjelmoimme JavaScriptillä. Se ei vaadi kummempia työkaluja, sen syntaksi ("kielioppi") on yksinkertainen, ja se on monikäyttöinen.
+Ohjelmoimme JavaScriptillä (lyh. JS). Se ei vaadi kummempia työkaluja, sen syntaksi ("kielioppi") on yksinkertainen, ja se on monikäyttöinen.
 * tavallinen webbiselain sisältää JS-tulkin
-  * ei siis vaadi kääntäjää, käännösvaihetta tms.
 * syntaksi on suhteellisen yksinkertainen...
 * ... mutta sillä voi silti tehdä oikeasti hyödyllisiä ja mielenkiintoisia asioita!
 
