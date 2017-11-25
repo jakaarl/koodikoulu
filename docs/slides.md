@@ -74,6 +74,10 @@ Kuten nimi antaa ymmärtää, muuttuja voi muuttua - sen voi asettaa sisältäm�
 
 ---
 
+![Muuttuja](images/variable.png)
+
+---
+
 ## Operaattorit
 
 Muuttujia käsitellään operaattoreilla. Edellä yhtäsuuruusmerkillä asetettiin muuttujalle arvo. Operaattoreita löytyy mm. yhteen-, vähennys-, kerto- ja jakolaskuun, sekä vertailuun. Suuri osa operaattoreista toimii vain tietyn tyyppisille muuttujille.
@@ -126,4 +130,34 @@ function plus(eka, toka) {
 
 Funktio "plus" ottaa parametrit "eka" ja "toka", ja palauttaa niiden summan (mikäli ne ovat numeroita) tai liittää ne yhteen (mikäli ne ovat tekstiä).
 
+---
 
+## Objektit
+
+Objekti on tietotyyppi, joka ikään kuin sisältää joukon muuttujia: laatikko, jonka sisällä on muita laatikoita. Sillä voi kätevästi ryhmitellä muuttujia järkeviksi kokonaisuuksiksi.
+
+```
+var steve = {
+  health: 100,
+  armor: [],
+  inventory: [],
+  equipment_slots: [ null, null, null, null, null, null, null, null, null ],
+  active_slot: 0,
+  position: {
+    x: 11023,
+    y: 378,
+    z: -12
+  }
+}
+```
+
+---
+
+![Minecraft Steve](images/steve.jpg)
+
+---
+
+## Kiitos!
+
+Kiitos kärsivällisyydestänne. Lopuksi voidaan vielä harjoitella ohjelmointia pienellä pelillä:
+[Pupupeli](https://quiet-brushlands-54755.herokuapp.com/)
